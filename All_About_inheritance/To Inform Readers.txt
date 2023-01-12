@@ -1,0 +1,46 @@
+---> Common Inheritance Interview Question in Java.
+
+---> Theoretical answers and practical.
+---> These are my own answers it cannot include certain truth.
+
+1.What is inheritance in Java, and why is it useful?
+--->Basically, inheritance is one class shares its properties (methods, instance variable),This class called "super class" ,
+there is one class which takes advantage of these method and instance variable is called "subclass". 
+The main purpose of inheritance in java helps programmers in short time produce a lot work.
+
+2.Can a class have more than one superclass in Java?
+The answer is NO, a class in java can only have one super class.
+The reason is because Java uses single inheritance. 
+
+3.What is the difference between inheritance and composition in Java?
+Inheritance is allowing a subclass to use properties of superclass, while Composition
+is a class can include objects of other classes as instance variable.
+
+4.How do you override a method from the superclass in a subclass?
+To override a method from super class basically we can define simple creation of a method,
+Which means access modifier, static or non-static, return type and method name, but the key
+are these properties it must be same order with which method wanted override.
+
+5.Can a subclass access the private members of its superclass in Java? If not, how can you make the subclass access them?
+If these or this private member/s did not have getter or setter (Encapsulation) special methods, we cannot access them.
+if they have these method we can access them.
+
+6.How does the final keyword affect inheritance in Java?
+when we do not want our class have subclasses, and we want our class be immutable, 
+we initialize class with final keyword. 
+Briefly when we don’t want other class take advantage of our class's properties, we use final keyword.
+
+7.How does the super keyword work in Java, and when would you use it?
+In java super keyword allows us to access properties of superclass, such as field hidden from another class, 
+to call constructor of super class and to override super class method.
+
+8.Can a subclass call the constructor of its superclass in Java? If so, how?
+YES, it can call by super keyword, we should just call super keyword and assign in it parameter/s, 
+and then if we need second constructor we can create after super keyword.
+
+9.How does polymorphism work in Java, and how is it related to inheritance?
+Basically. Polymorphism word means is many forms, 
+in java we can say where an on object of sub class can act as object of super class, 
+and with this approach we can use this object to take advantage of properties of base class.
+
+
