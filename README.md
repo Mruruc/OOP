@@ -1,4 +1,4 @@
 This repository purpose is for education,
-who are wants to learn about java programing language.
-Part by part Core java aplication.
+Who are wants to learn about java programing language.
+Part by part OOP in java and aplications.
 interview questions on the relevant topic.
